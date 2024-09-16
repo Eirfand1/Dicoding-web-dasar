@@ -1,0 +1,70 @@
+[
+   {
+      "name": "Bulbasaur",
+      "image": "./assets/1.png",
+      "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+      "types": ["Grass", "Poison"],
+      "height": "0.7 m",
+      "weight": "6.9 kg",
+      "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
+      "stats": {
+         "hp": 45,
+         "attack": 49,
+         "defense": 49,
+         "spAttack": 65,
+         "spDefense": 65,
+         "speed": 45
+      }
+   },
+   {
+      "name": "Charmander",
+      "image": "./assets/4.png",
+      "description": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+      "types": ["Fire"],
+      "height": "0.6 m",
+      "weight": "8.5 kg",
+      "abilities": ["Blaze", "Solar Power (Hidden)"],
+      "stats": {
+         "hp": 39,
+         "attack": 52,
+         "defense": 43,
+         "spAttack": 60,
+         "spDefense": 50,
+         "speed": 65
+      }
+   },
+   {
+      "name": "Squirtle",
+      "image": "./assets/7.png",
+      "description": "Squirtle's shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+      "types": ["Water"],
+      "height": "0.5 m",
+      "weight": "9.0 kg",
+      "abilities": ["Torrent", "Rain Dish (Hidden)"],
+      "stats": {
+         "hp": 44,
+         "attack": 48,
+         "defense": 65,
+         "spAttack": 50,
+         "spDefense": 64,
+         "speed": 43
+      }
+   },
+   {
+      "name": "Charmeleon",
+      "image": "./assets/5.png",
+      "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+      "types": ["Fire"],
+      "height": "1.1 m",
+      "weight": "19.0 kg",
+      "abilities": ["Blaze", "Solar Power (Hidden)"],
+      "stats": {
+         "hp": 58,
+         "attack": 64,
+         "defense": 58,
+         "spAttack": 80,
+         "spDefense": 65,
+         "speed": 80
+      }
+   }
+]

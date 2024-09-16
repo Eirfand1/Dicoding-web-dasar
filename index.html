@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>MonKedekep - Pokemon Explorer</title>
+   <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+   <header>
+      <h4>Mon<span class="highlight">Kedekep</span></h4>
+      <nav>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <main>
+      <aside>
+         <details open class="pokemon-list">
+            <summary>
+                <img src="assets/pngegg.png" width="30" alt="Pokeball"> Klik Pokeball
+            </summary>
+            <ul id="pokemonList"></ul>
+         </details>  
+      </aside>
+     
+      <article id="pokemonDisplay">
+         <h2 id="pokemonName"></h2>
+         <div class="pokemon-info">
+            <div class="containerImage">
+               <img id="pokemonImage" src="" alt="Pokémon">
+            </div>
+            <div class="details">
+               <p id="pokemonDescription"></p>
+               <div class="detail-column des1">
+                  <div>
+                     <p id="pokemonTypes"></p>
+                     <p id="pokemonHeight"></p>
+                  </div>
+                  <div >
+
+                  <p id="pokemonWeight"></p>
+                  <div class="abilities">
+                     <h4>Abilities:</h4>
+                     <ul id="pokemonAbilities"></ul>
+                  </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="detail-column statContainer">
+                  <h3>Stats</h3>
+                  <ul id="pokemonStats" class="stat-list"></ul>
+             </div>
+         </div>
+      </article>
+   </main>
+   
+   <footer>
+      <p>&copy; 2024 MonKedekep - Created by Irfandye</p>
+   </footer>
+   
+   <script src="./js/script.js"></script>
+</body>
+</html>
